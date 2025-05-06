@@ -8,9 +8,6 @@ package:
 source:
   url: https://github.com/carpentries/sandpaper/archive/refs/tags/{{ version }}.tar.gz
   sha256: e0391e3bbf60c7adaeb7648d64df6ea1c6f85fed723ad75ddbd9ca78a3d17025
-  patches:
-    # c.f. https://github.com/carpentries/sandpaper/pull/651
-    - add-lesson-example-to-config-template-source.patch
 
 build:
   number: 0
