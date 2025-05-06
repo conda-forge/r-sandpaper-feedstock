@@ -1,4 +1,4 @@
-{% set version = '0.16.11' %}
+{% set version = "0.16.12" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -7,10 +7,7 @@ package:
 
 source:
   url: https://github.com/carpentries/sandpaper/archive/refs/tags/{{ version }}.tar.gz
-  sha256: 2036381b8421f2e47afd8cfc6be56fa0aab70877da7bd773476a431a3f7b2517
-  patches:
-    # c.f. https://github.com/carpentries/sandpaper/pull/651
-    - add-lesson-example-to-config-template-source.patch
+  sha256: e0391e3bbf60c7adaeb7648d64df6ea1c6f85fed723ad75ddbd9ca78a3d17025
 
 build:
   number: 0
