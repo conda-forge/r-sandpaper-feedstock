@@ -37,6 +37,7 @@ requirements:
     - r-gert >=1.0.1
     - r-gh
     - r-glue
+    - r-httr
     - r-knitr >=1.33
     - r-pegboard >=0.7.0
     - r-pkgdown >=1.6.0
@@ -46,11 +47,13 @@ requirements:
     - r-rprojroot
     - r-rstudioapi
     - r-servr
+    - r-stringr
     - r-usethis >=2.0.0
     - r-whisker
     - r-withr
     - r-yaml
     - r-r.utils
+    - r-xfun
   run:
     - r-base
     - r-assertthat
@@ -62,6 +65,7 @@ requirements:
     - r-gert >=1.0.1
     - r-gh
     - r-glue
+    - r-httr
     - r-knitr >=1.33
     - r-pegboard >=0.7.0
     - r-pkgdown >=1.6.0
@@ -71,11 +75,13 @@ requirements:
     - r-rprojroot
     - r-rstudioapi
     - r-servr
+    - r-stringr
     - r-usethis >=2.0.0
     - r-whisker
     - r-withr
     - r-yaml
     - r-r.utils
+    - r-xfun
 
 test:
   requires:
