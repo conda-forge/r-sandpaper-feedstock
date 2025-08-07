@@ -1,4 +1,4 @@
-{% set version = "0.16.12" %}
+{% set version = "0.17.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/carpentries/sandpaper/archive/refs/tags/{{ version }}.tar.gz
-  sha256: e0391e3bbf60c7adaeb7648d64df6ea1c6f85fed723ad75ddbd9ca78a3d17025
+  sha256: 08befeadf560ab3ca076ee7b6ebf4524537ba50fa9b9ca92799957f2117cad54
 
 build:
   number: 0
