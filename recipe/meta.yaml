@@ -39,6 +39,7 @@ requirements:
     - r-glue
     - r-httr
     - r-knitr >=1.33
+    - r-markdown
     - r-pegboard >=0.7.0
     - r-pkgdown >=1.6.0
     - r-renv >=0.14.0
@@ -67,6 +68,7 @@ requirements:
     - r-glue
     - r-httr
     - r-knitr >=1.33
+    - r-markdown
     - r-pegboard >=0.7.0
     - r-pkgdown >=1.6.0
     - r-renv >=0.14.0
