@@ -30,6 +30,7 @@ requirements:
     - r-base
     - r-assertthat
     - r-callr
+    - r-cffr
     - r-cli >=3.4.0
     - r-commonmark
     - r-desc
@@ -59,6 +60,7 @@ requirements:
     - r-base
     - r-assertthat
     - r-callr
+    - r-cffr
     - r-cli >=3.4.0
     - r-commonmark
     - r-desc
