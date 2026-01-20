@@ -163,6 +163,3 @@ Feedstock Maintainers
 * [@conda-forge/r](https://github.com/orgs/conda-forge/teams/r/)
 * [@matthewfeickert](https://github.com/matthewfeickert/)
 
-
-<!-- dummy commit to enable rerendering -->
-
