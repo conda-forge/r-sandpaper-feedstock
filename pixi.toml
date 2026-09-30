@@ -5,7 +5,7 @@
 
 [workspace]
 name = "r-sandpaper-feedstock"
-version = "2026.8.9"  # conda-smithy version used to generate this file
+version = "2026.9.23"  # conda-smithy version used to generate this file
 description = "Pixi configuration for conda-forge/r-sandpaper-feedstock"
 authors = ["@conda-forge/r-sandpaper"]
 channels = ["conda-forge"]
@@ -38,20 +38,20 @@ description = "List contents of all packages found in rattler-build build direct
 cmd = "rattler-build build --recipe recipe"
 description = "Build r-sandpaper-feedstock directly (without setup scripts), no particular variant specified"
 [feature.build.tasks."build-linux_64_r_base4.4"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_r_base4.4.yaml"
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_r_base4.4.yaml "
 description = "Build r-sandpaper-feedstock with variant linux_64_r_base4.4 directly (without setup scripts)"
 [feature.build.tasks."debug-linux_64_r_base4.4"]
-cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_64_r_base4.4.yaml"
-description = "Build r-sandpaper-feedstock with variant linux_64_r_base4.4 directly (without setup scripts)"
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_64_r_base4.4.yaml "
+description = "Debug r-sandpaper-feedstock with variant linux_64_r_base4.4 directly (without setup scripts)"
 [feature.build.tasks."inspect-linux_64_r_base4.4"]
 cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_r_base4.4.yaml"
 description = "List contents of r-sandpaper-feedstock packages built for variant linux_64_r_base4.4"
 [feature.build.tasks."build-linux_64_r_base4.5"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_r_base4.5.yaml"
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_r_base4.5.yaml "
 description = "Build r-sandpaper-feedstock with variant linux_64_r_base4.5 directly (without setup scripts)"
 [feature.build.tasks."debug-linux_64_r_base4.5"]
-cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_64_r_base4.5.yaml"
-description = "Build r-sandpaper-feedstock with variant linux_64_r_base4.5 directly (without setup scripts)"
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_64_r_base4.5.yaml "
+description = "Debug r-sandpaper-feedstock with variant linux_64_r_base4.5 directly (without setup scripts)"
 [feature.build.tasks."inspect-linux_64_r_base4.5"]
 cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_r_base4.5.yaml"
 description = "List contents of r-sandpaper-feedstock packages built for variant linux_64_r_base4.5"
