@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.21.1"
+  version: "0.21.2"
 
 package:
   name: r-sandpaper
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://github.com/carpentries/sandpaper/archive/refs/tags/${{ version }}.tar.gz
-  sha256: af5fdb0fa67924a79f591d5896b26c0d4b583ce6a656530fc99c272c5324524a
+  sha256: d9cd6ed5fa37402189625ce61feeb41c77cea6928da43cfd4b0630d985d33c63
 
 build:
   number: 0
